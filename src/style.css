@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #f7f8fb !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+.card {
+  border: none !important;
+}
+
+h4 {
+  padding: 5px;
+  font-size: 21px !important;
+}
+
+label{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 15px !important;
+    color: #6988A6;
+}
+
+input{
+ border: none !important;
+ padding: 12px !important;
+ background-color: #a5b8ca52 !important;
+}
+
+input::placeholder{
+    text-align: center;
+    color: #6988A6 !important;
+}
+
+.bi-search, .bi-plus-lg{
+    color: #6988A6 !important;
+}
+
+.bi{
+    transition: 0.1s all;
+}
+.bi:hover{
+    color: #80D1F7;
+}
